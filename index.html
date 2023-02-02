@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/styles/global.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    
+    <title> Sidebar - Desafio Rocketseat</title>
+  </head>
+  
+  <body>
+    <div class="container">
+      <div class="sidebar">
+        <div class="header">
+           <img class="logo" src="assets/images/logo.svg" alt="Logo do site, o qual mostra uma cruz e uma pegada de cão ou gato.">
+            <button class="menu-button" id="menu-menu" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/menu.svg" alt="Menu">
+            </button>
+        </div>
+         
+        <div class="search">
+            <button class="menu-button" id="menu-search" onclick="openCloseSidebar()">
+                <img class="menu-icon" src="assets/images/search.svg" alt="Lupa">
+               <span class="menu-texto">Buscar</span>
+            </button>
+        </div>
+
+        <div class="dashboard">
+          <button class="menu-button" id="menu-dashboard" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/grid.svg" alt="Grid">
+              <span class="menu-texto">Dashboard</span>
+          </button>
+        </div>
+
+        <div class="pets">
+          <button class="menu-button" id="menu-pets" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/pet.svg" alt="Pets">
+              <span class="menu-texto">Pets</span>
+          </button>
+        </div>
+
+        <div class="clientes">
+          <button class="menu-button" id="menu-clientes" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/user.svg" alt="Clientes">
+              <span class="menu-texto">Clientes</span>
+          </button>
+        </div>
+
+        <div class="vets">
+          <button class="menu-button" id="menu-vets" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/vet.svg" alt="Vets">
+              <span class="menu-texto">Vets</span>
+          </button>
+        </div>
+
+        <div class="ajustes">
+          <button class="menu-button" id="menu-ajustes" onclick="openCloseSidebar()">
+              <img class="menu-icon" src="assets/images/settings.svg" alt="Ajustes">
+              <span class="menu-texto">Ajustes</span>
+          </button>
+        </div>
+
+         <div class="footer">
+            <img class="avatar" src="assets/images/photo.jpg" alt="Foto">
+                <span>
+                    <p class="nome">Eleanor Pena</p>
+                    <p class="profissao">Veterinária</p>
+                </span>
+
+                <button class="log-out" onclick="openCloseSidebar()">
+                    <img src="assets/images/log-out.svg" alt="Log-out">
+                </button>
+            </div>
+        </div>
+
+        <div class="main">
+            <h2>Dashboard</h2>
+        </div>
+    </div>
+    
+    <script src="assets/scripts/script.js"></script>
+  </body>
+</html>
+
+
+
+
